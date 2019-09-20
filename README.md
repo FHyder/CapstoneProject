@@ -26,14 +26,14 @@ I also used world bank to retrieve population and GDP data and added it to my Da
 I then ran 7 different models on this data and appended the mean-squared-error of each onto a list to see which model performed best. In this 
 case it was a random forest with untuned parameters.
 
-![](https://github.com/FHyder/CapstoneProject/blob/master/Screen%20Shot%202019-09-20%20at%203.21.42%20PM.png)
+![](https://github.com/FHyder/CapstoneProject/blob/master/MSE%20graph.png)
 
 I checked feature importances for the selected model:
-![](https://github.com/FHyder/CapstoneProject/blob/master/Screen%20Shot%202019-09-20%20at%203.21.57%20PM.png)
+![](https://github.com/FHyder/CapstoneProject/blob/master/featureimportance.png)
 
 And used the lime library to understand how these features were used:
 
-![](https://github.com/FHyder/CapstoneProject/blob/master/Screen%20Shot%202019-09-20%20at%203.26.56%20PM.png)
+![](https://github.com/FHyder/CapstoneProject/blob/master/LIME.png)
 
 
 ###My conclusions:
